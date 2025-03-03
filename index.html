@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+        header {
+            text-align: center;
+            padding: 2rem;
+            background-color: #e3f2fd;  /* 清水蓝背景 */
+            border-radius: 10px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #0077b6;  /* 深蓝边框 */
+            margin: -80px auto 20px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #dee2e6;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: #212529;
+            text-decoration: none;
+            transition: color 0.3s;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #0077b6;  /* 深蓝悬停色 */
+        }
+
+        main section {
+            background-color: #ffffff;
+            padding: 2rem;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: 1px solid #dee2e6;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #e3f2fd;  /* 清水蓝背景 */
+            border-radius: 10px;
+            color: #212529;
+        }
+
+        .contact-list {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-top: 1rem;
+            color: #0077b6;  /* 深蓝色标题 */
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #e3f2fd;
+            padding-bottom: 0.5rem;
+        }
+
+
+        h1 {
+            color: #212529;
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #0077b6;  /* 深蓝色标题 */
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #e3f2fd;
+            padding-bottom: 0.5rem;
+        }
+
+        ul {
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+    </style>  
+    
+    </head>
+<body>
+        <header>
+            <img src="/Users/fuu/Desktop/截屏2025-03-03 17.31.54.png" alt="林崎头像" class="avatar">
+            <h1>欢迎来到林崎的主页</h1>
+        </header>
+    
+
+    <main>
+        <section id="about">
+            <h2>个人信息</h2>
+            <p>👋 你好！我是林崎，前端开发工程师，热爱编程和设计。</p>
+            <p>📍 现居北京 | 🎓 清华大学计算机系毕业</p>
+            <p>👉 我的座右铭是:要去有风的地方</p>
+        </section>
+        
+        <!DOCTYPE html>
+        <html lang="zh-CN">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>小明的主页</title>
+            <style>
+
+.badge {
+    background-color: #0077b6;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.9em;
+    display: inline-block;
+    margin-bottom: 0.5rem;.travel-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.travel-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .travel-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .charity-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .charity-item {
+            padding: 1rem;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #0077b6;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#hobbies">旅行足迹</a></li>
+            <li><a href="#travel"></a>公益行动</li>  <!-- 新增导航项 -->
+            <li><a href="#charity">兴趣爱好</a></li>  <!-- 新增导航项 -->
+            <li><a href="#contact">联系方式</a></li>
+        </ul>
+    </nav>
+    
+</main>
+<section id="travel">
+    <h2>🌍 旅行足迹</h2>
+    <div class="travel-gallery">
+        <div class="travel-item">
+            <p>🏜️ 敦煌沙漠徒步（2022）</p>
+        </div>
+        <div class="travel-item">
+            <p>🛶 江南水乡之旅（2021）</p>
+        </div>
+        <div class="travel-item">
+            <p>🏔️ 西藏文化探索（2020）</p>
+        </div>
+    </div>
+</section>
+
+<section id="charity">
+    <h2>❤️ 公益行动</h2>
+    <div class="charity-list">
+        <div class="charity-item">
+            <div class="badge">持续参与</div>
+            <h3>乡村儿童编程教育</h3>
+            <p>每月周末为偏远地区学生提供线上编程课程，累计授课200+小时</p>
+        </div>
+        <div class="charity-item">
+            <div class="badge">环保行动</div>
+            <h3>城市河流保护计划</h3>
+            <p>参与水质监测和环保宣传，2022年累计志愿服务80小时</p>
+        </div>
+        <div class="charity-item">
+            <div class="badge">特殊群体关怀</div>
+            <h3>盲人数字设备教学</h3>
+            <p>协助开发无障碍应用，定期组织线下教学活动</p>
+        </div>
+    </div>
+</section>
+</main>
+</body>
+</html>
+
+        <section id="hobbies">
+            <h2>兴趣爱好</h2>
+            <ul>
+                <li>📚 阅读技术文档和写科幻小说</li>
+                <li>🎮 玩电子游戏</li>
+                <li>🚴 骑行和户外运动</li>
+                <li>☕ 品尝精品咖啡</li>
+            </ul>
+        </section>
+        
+        <section id="contact">
+            <h2>联系方式</h2>
+            <div class="contact-list">
+                <a href="mailto:xiaoming@example.com" style="color: #0077b6;">📧 邮箱</a>
+                <a href="https://github.com/xiaoming" target="_blank" style="color: #212529;">🐱 GitHub</a>
+                <a href="https://weibo.com/xiaoming" target="_blank" style="color: #0077b6;">📱 微博</a>
+            </div>
+        </section>
+    </main>
+
+        
+
+    <footer>
+        <p>&copy; 2025 中国北京</p>
+    </footer>
+</body>
+</html>
